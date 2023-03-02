@@ -1,0 +1,104 @@
+Z
+
+
+
+/* NAV BAR */
+nav{
+    background-color: var(--COLOR);
+    color: white;
+}
+
+h1{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 1rem 0 0.5rem 0;
+}
+
+ul li{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+/* Header */
+
+header{
+    background-image: url("https://loremflickr.com/cache/resized/65535_52225415595_77f9a15e4c_h_1200_300_nofilter.jpg");
+    height: 240px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+/* Contenue About us */
+
+main{
+    background-color: rgb(222, 220, 220);
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    width: 50%;
+    margin: 1.5rem;
+    text-align: left;
+}
+
+p{
+    width: 50%;
+    text-align: left;
+    line-height: 1.5rem;
+    max-width: 65ch;
+
+}
+
+/* Contenue Article */
+  
+div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 1.5rem;
+}
+article h1{
+    background-color: white;
+    font-size: 1.3rem;
+    width: 280px;
+    height: 80px;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.7rem;
+    padding-top: 27px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 10px rgba(91, 90, 90, 0.123);
+
+}
+
+footer{
+    background-color: #f76c6c;
+    padding: 0.7rem;
+    font-weight:500;
+}
+
+@media(max-width : 768px){
+
+    footer{
+        background-color: var(--COLOR2);
+        padding: 3rem;
+        font-weight: bold;
+    }
+}
